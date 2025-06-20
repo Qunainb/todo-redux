@@ -7,7 +7,7 @@ export default function Todos() {
 
   return (
     <>
-      <div className="text-center text-2xl font-bold underline">Todos</div>
+      <div className="text-center text-2xl font-bold underline mt-8">Todos</div>
       <ul className="list-none">
         {todos.map((todo) => (
           <li
